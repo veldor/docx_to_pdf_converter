@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: net.veldor.docx_to_pdf.Main
+
