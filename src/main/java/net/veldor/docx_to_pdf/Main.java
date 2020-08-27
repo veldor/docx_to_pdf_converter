@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         if(args.length == 2){
             // агрументы переданы, передам их парсеру
-            new Parser(args[0], args[1]);
+            Parser.parse(args[0], args[1]);
         }
         else{
             System.out.println("Нужно передать имя файла и адрес папки назначения");
